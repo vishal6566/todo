@@ -13,7 +13,6 @@ const UserDetails = () => {
         fetchData()
     },[])
 
-console.log(userDetail)
   return (
     <div className='container'>
         <div>
