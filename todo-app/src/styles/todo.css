@@ -1,0 +1,52 @@
+.todoContainer{
+   
+    width: 50%;
+ 
+   
+}
+.todoContainer>div:first-child{
+margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.heading{
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+padding: 5px;
+margin-top: 10px;
+}
+.page{
+    
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    padding: 1rem;
+}
+.text{
+    margin-top: 8px;
+  padding-left: 20px;
+}
+
+@media screen and (min-width: 100px) and (max-width: 750px){
+    .todoContainer{
+   
+        width: 90%;
+        margin: auto;
+     
+       
+    }
+    .todoContainer>div:first-child{
+        margin: 20px 0px;
+            display: block;
+           
+        }
+  }
+  @media screen and (min-width: 750px) and (max-width: 1000px){
+  
+    .todoContainer>div:first-child{
+        margin: 20px 0px;
+            display: block;
+           
+        }
+  }

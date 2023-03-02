@@ -1,0 +1,38 @@
+.container{
+   
+    width: 40%;
+
+   
+}
+.container>div:first-child{
+    margin: 20px 0px;
+        
+    }
+    .body{
+        border: 1px solid black;
+        width: 80%;
+        margin-top: 15px;
+    }
+    .subBody{
+        
+        display: flex;
+        padding: 5px;
+    }
+    .text{
+        margin-right: 20%;
+    }
+
+    .detail{
+       
+        padding-top: 4px;
+    }
+    @media screen and (min-width: 100px) and (max-width: 750px){
+        .container{
+       
+            width: 90%;
+            margin: auto;
+         
+           
+        }
+      }
+    
